@@ -16,7 +16,7 @@ select.innerHTML = '' +
   '<option value="7">7</option>' +
   '<option value="8">8</option>';
 
-  select.addEventListener('change', function() {
+select.addEventListener('change', function() {
   var indent = parseInt(select.value);
   var css = '';
   for (i = indent; i <= 8; i++) {
