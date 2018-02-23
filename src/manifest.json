@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "Dropbox Paper Indent Hide",
+  "description": "Hide content below specified indent in dropbox paper",
+  "icons": { "128": "icon_128.png" },
+  "permissions": ["https://paper.dropbox.com/doc/*"],
+  "content_scripts": [{
+    "matches": ["https://paper.dropbox.com/doc/*"],
+    "js": ["content-script.js"]
+  }],
+  "web_accessible_resources": ["script.js"],
+  "browser_action": {
+    "default_icon": "icon_128.png"
+  }
+}
+
