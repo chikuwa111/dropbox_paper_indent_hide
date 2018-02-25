@@ -6,9 +6,8 @@
   "icons": { "128": "icon_128.png" },
   "content_scripts": [{
     "matches": ["https://paper.dropbox.com/doc/*"],
-    "js": ["content-script.js"]
+    "js": ["script.js"]
   }],
-  "web_accessible_resources": ["script.js"],
   "browser_action": {
     "default_icon": "icon_128.png"
   }
