@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "version": "0.2.0",
+  "version": "0.2.1",
   "name": "Dropbox Paper Indent Hide",
   "short_name": "Indent Hide",
   "description": "Hide content whose indentation size is larger than specified size.",
