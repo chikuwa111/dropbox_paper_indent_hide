@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "name": "Dropbox Paper Indent Hide",
   "short_name": "Indent Hide",
-  "description": "Hide content below specified indent in dropbox paper",
+  "description": "Hide content whose indentation size is larger than specified size.",
   "icons": { "128": "icon_128.png" },
   "content_scripts": [{
     "matches": ["https://paper.dropbox.com/doc/*"],
